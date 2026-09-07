@@ -19,34 +19,43 @@
         <mxCell id="yIh8LksC6Z8Gh8xX6iAJ-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="1104" y="180" as="sourcePoint" />
-            <mxPoint x="1250" y="180" as="targetPoint" />
+            <mxPoint x="1104" y="270" as="sourcePoint" />
+            <mxPoint x="1250" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yIh8LksC6Z8Gh8xX6iAJ-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="970" y="180" as="sourcePoint" />
-            <mxPoint x="1120" y="180" as="targetPoint" />
+            <mxPoint x="970" y="270" as="sourcePoint" />
+            <mxPoint x="1120" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yIh8LksC6Z8Gh8xX6iAJ-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1250" y="180" as="sourcePoint" />
-            <mxPoint x="1250" y="240" as="targetPoint" />
+            <mxPoint x="1250" y="270" as="sourcePoint" />
+            <mxPoint x="1250" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yIh8LksC6Z8Gh8xX6iAJ-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="970" y="180" as="sourcePoint" />
-            <mxPoint x="970" y="240" as="targetPoint" />
+            <mxPoint x="970" y="270" as="sourcePoint" />
+            <mxPoint x="970" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yIh8LksC6Z8Gh8xX6iAJ-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Database for storing responses:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Excel/Sharepoint&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="130" x="910" y="240" as="geometry" />
+          <mxGeometry height="160" width="130" x="910" y="330" as="geometry" />
         </mxCell>
         <mxCell id="yIh8LksC6Z8Gh8xX6iAJ-9" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Automated Workflow message to IT Placement Student via Teams when a response is submitted" vertex="1">
-          <mxGeometry height="160" width="130" x="1190" y="240" as="geometry" />
+          <mxGeometry height="160" width="130" x="1190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="I_y8N81M-_oPrLgeYJ2C-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Power Automate Triggers" vertex="1">
+          <mxGeometry height="60" width="120" x="1050" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="I_y8N81M-_oPrLgeYJ2C-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1109.5" y="240" as="sourcePoint" />
+            <mxPoint x="1109.5" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
