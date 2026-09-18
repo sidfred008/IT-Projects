@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WDBtmuVyeojGULNfGS7Y">
+    <mxGraphModel dx="889" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qbHrjpRJBNRod3XSS5Ep-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Email from Julia" vertex="1">
+          <mxGeometry height="80" width="120" x="1030" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qbHrjpRJBNRod3XSS5Ep-5" edge="1" parent="1" source="qbHrjpRJBNRod3XSS5Ep-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=60.00000000000001;exitDy=80;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1089.57" y="120" as="sourcePoint" />
+            <mxPoint x="1089.57" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
