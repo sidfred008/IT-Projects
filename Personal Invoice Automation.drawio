@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="WDBtmuVyeojGULNfGS7Y">
-    <mxGraphModel dx="889" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="2271" dy="1609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qbHrjpRJBNRod3XSS5Ep-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Email from Julia containing invoices&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="120" x="1030" y="40" as="geometry" />
+        <mxCell id="qbHrjpRJBNRod3XSS5Ep-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Email from Julia containing invoices (both with or without invoices)&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="120" x="1030" y="30" as="geometry" />
         </mxCell>
         <mxCell id="qbHrjpRJBNRod3XSS5Ep-5" edge="1" parent="1" source="qbHrjpRJBNRod3XSS5Ep-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=60.00000000000001;exitDy=80;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -21,6 +21,66 @@
             <mxPoint x="1089.57" y="300" as="sourcePoint" />
             <mxPoint x="1089.57" y="370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-3" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Send message on Teams via Workflow containing the exact email and boolean value whether attachment is there and also the SharePoint link to review the invoices" vertex="1">
+          <mxGeometry height="190" width="120" x="1030" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" value="" vertex="1">
+          <mxGeometry height="90" width="100" x="1040" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-5" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopStandard=1;" value="For Each Loop" vertex="1">
+          <mxGeometry height="80" width="120" x="1030" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-6" edge="1" parent="1" source="jKpBHS8i6c7kkZD2kl1K-3" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.502;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1089.58" y="600" as="sourcePoint" />
+            <mxPoint x="1089.5800000000002" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="All attachments&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="120" x="1080" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-9" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" value="" vertex="1">
+          <mxGeometry height="16.5" width="30" x="1160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-10" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.tools;pointerEvents=1" value="" vertex="1">
+          <mxGeometry height="29.7" width="29.7" x="1170.3" y="220.15" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-11" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="1168.15" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-12" parent="1" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.ms_sharepoint;" value="Create File&amp;nbsp;&lt;br&gt;in SharePoint" vertex="1">
+          <mxGeometry height="44.8" width="65" x="1120" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-13" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" value="Get Attachments&amp;nbsp;" vertex="1">
+          <mxGeometry height="44.8" width="80" x="1000" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-14" edge="1" parent="1" source="jKpBHS8i6c7kkZD2kl1K-13" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.436;exitY=1.076;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="950" />
+              <mxPoint x="1050" y="1030" />
+              <mxPoint x="1100" y="1040" />
+              <mxPoint x="1150" y="1030" />
+              <mxPoint x="1180" y="960" />
+            </Array>
+            <mxPoint x="1070" y="960" as="sourcePoint" />
+            <mxPoint x="1150" y="878.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-17" connectable="0" parent="jKpBHS8i6c7kkZD2kl1K-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.861" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="794.15" width="210" x="790" y="58.25" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-16" edge="1" parent="1" source="jKpBHS8i6c7kkZD2kl1K-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" target="qbHrjpRJBNRod3XSS5Ep-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Retrieves files if there are any using Dynamic Value&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="630" y="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
