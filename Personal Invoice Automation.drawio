@@ -4,13 +4,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qbHrjpRJBNRod3XSS5Ep-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Email from Julia" vertex="1">
+        <mxCell id="qbHrjpRJBNRod3XSS5Ep-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Email from Julia containing invoices&amp;nbsp;" vertex="1">
           <mxGeometry height="80" width="120" x="1030" y="40" as="geometry" />
         </mxCell>
         <mxCell id="qbHrjpRJBNRod3XSS5Ep-5" edge="1" parent="1" source="qbHrjpRJBNRod3XSS5Ep-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=60.00000000000001;exitDy=80;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1089.57" y="120" as="sourcePoint" />
             <mxPoint x="1089.57" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Office 365 retrieve Siddhant Frederick&#39;s Profile" vertex="1">
+          <mxGeometry height="130" width="120" x="1030" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jKpBHS8i6c7kkZD2kl1K-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1089.57" y="300" as="sourcePoint" />
+            <mxPoint x="1089.57" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
